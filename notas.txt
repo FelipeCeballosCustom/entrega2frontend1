@@ -1,0 +1,79 @@
+Clase -> Plantilla de contenido que define una funcionalidad para sus herederos (padre que da ejemplo a sus hijos)
+
+DOM -> Es un canal de comunicacion entre el navegador (html) y JavaScript (API) - Interfaz de programación de aplicaciones
+
+Patrones de diseño: SOLID, Haxagonal, TDD, DDD, MVC
+
+MVC -> Model - View - Controller
+    Model -> Hace referencia a la base de datos
+    View -> Hace referencia a la vista (HTML, interfaz grafica)
+    Controller -> Hace refencia a la logica (lenguaje de programación)
+
+Objeto -> cualquier cosa que se pueda describir.
+
+Selectores
+    getElement
+        getElementByid -> Selecciona elementos por un id
+        getElementByclass -> Selecciona elementos por clase
+        getElementByTagName -> Selecciona elementos por nombre de etiqueta
+
+    querySelector
+        querySelector -> Permite seleccionar por id, por clase y por etiqueta
+        querySelectorAll -> Permite seleccionar por id, por clase y por etiqueta
+
+Metodos de los arreglos: 
+    map() -> Es un metodo de interaccion que manipula todo el arreglo (elemento por elemento), el cual retornara un nuevo arreglo
+    filter() -> Iteracion que filtra el contenido de un arreglo bajo una condicion retornando un nuevo arreglo
+    find() -> Iteracion que busca un unico elemento dentro de un arreglo y retorna ese elemento
+    some() -> Iteracion que busca un unico elemento dentro de un arreglo y retorna true o false
+    push() -> Es un metodo que agrega un elemento a la ultima posicion del arreglo actual.
+    pop() -> Es un metodo que elimina la ultima posicion de un arreglo
+    shift () -> Es un metodo que elimina la primera posicion de un arreglo
+    unshift() -> Es un metodo que agrega un elemento a la primera posicion de un arreglo 
+    splice () -> Es un metodo que elimina un elemento de una posicion N del arreglo (N puede ser cualquier valor)
+    forEach() -> lo mismo que el metodo map pero sin retorno de arreglo 
+
+Metodos Mutables -> Modifica el arreglo original
+
+Metodos no Mutables -> No modifica el arreglo original
+    map()
+
+Objetos: Casi todas las etiquetas HTML tienen una propuedad textContent (menos los input),
+la cual permite acceder al texto que es visible para el usuario
+Para lo input la propiedad que permite ver y manipular el contenido es la value
+--Son una estructura de datos que puede alacenar cualquier otro tipo de dato, otro objeto, un arreglo, un string, un booleano--
+Los objetos son una agrupación de un par de datos: (llave y valor)
+Pueden ser: 
+    Objetos literales
+    Objetos por constructor
+
+DOM -> es manipulado por medio de eventos
+    Eventos de usuario -> Toda accion que realiza un suaurio dentro de la aplicación:
+    click, doble cilck, scroll, presionar una tecla, etc
+    Eventos de documento -> Toda accion que se realiza por debajo y no es visible para el usuario
+
+    Los eventos son funciones o acciones que se pueden definir desde el HTML o desde el JavaScript
+    y siempre seran ejecutados por medio de funciones
+
+Funciones -> Es un bloque de codigo encapsulado que se puede llamar donde quiera y ejecutará una acción definida
+Toda funcion trabaja en dos tiempos: su definicion y su llamado o invocación
+    Funciones Regulares
+        Declarativas -> Se almacenan en el alcance global de la aplicacion (hoisting)
+        De expresión
+    Funciones Flecha
+        De expresión
+    Funciones Anonimas -> Es una funcion que no tiene nombre y se ejecuta solamente donde se definio.
+
+    No retorno -> Es una funcion que ejecuta y muestra en la misma funcion (void)
+    Retorno -> Es una ejecución que hace una función y que se podrá utilizar despues. 
+
+Eventos predeterminados
+    Mouse -> click, doble click, ingreso del mouse, salida del mouse, scroll
+        onclick, ondblclick, onmouseenter, onmouseout
+    Teclado -> 
+
+Modulos
+Importación y exportación de contenido entre contenidos JS
+
+Cuando trabajamos con modulos (import o export) los eventos se programan por medio del escuchador de eventos
+addEventListener

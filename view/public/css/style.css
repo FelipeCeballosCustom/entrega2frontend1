@@ -1,0 +1,49 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/view/public/img/empanadas2.webp');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 40%;
+    height: 40%;
+    display: inherit; /*hereda la propiedad del padre*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(10px); /* efecto glass*/
+}
+.form div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.form div label{
+    color: white;
+    letter-spacing: 2px;
+}
+.form div input{
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    /*text-transform: uppercase; convierte todas las letras en mayusculas */
+}
+.form button{
+    width: 40%;
+    margin-top: 20px;
+    background-color: white;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
